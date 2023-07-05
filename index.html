@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6f85487004.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <main class="todo-app">
+      <h1>代辦清單</h1>
+      <div class="taskSection">
+        <input type="text" id="taskInput" value="" />
+        <button id="addBtn">新增</button>
+      </div>
+      <section>
+        <ul class="todo-list">
+          <li class="todo-item">
+            <input type="checkbox" class="item" id="check" />
+            <span>待辦事項1</span>
+            <button class="closeBtn">
+              <i id="trashcan" class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="todo-item">
+            <input type="checkbox" class="item" id="check" />
+            <span>待辦事項1</span>
+            <button class="closeBtn">
+              <i id="trashcan" class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
